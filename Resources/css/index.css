@@ -112,3 +112,15 @@ footer {
     font-size: 2em;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Change the layout of the sections when the screen width is less than 600px */
+  section {
+      flex-wrap: wrap;
+  }
+
+  /* Reduce the size of the images */
+  img {
+      max-width: 100%;
+  }
+}
